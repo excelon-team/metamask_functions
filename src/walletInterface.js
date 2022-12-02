@@ -177,7 +177,6 @@ const WalletInterface = () => {
 
   // eslint-disable-next-line
   const checking3 = async () => {
-    /* 
     {
       setStep(3.1)
       const res = await changeNetwork(1)
@@ -193,6 +192,7 @@ const WalletInterface = () => {
         if(tmp === false) return false
       }
     }
+    /*
     {
       await delay(5000);
       setStep(3.5)
